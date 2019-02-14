@@ -23,7 +23,18 @@ def home():
 def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
+    
+    
+@app.route('/profile/')
+def profile():
+     """Render the profile page."""
+    return render_template('profile.html')
 
+
+def format_date_joined(date)
+    now = datetime.datetime.now()
+    date_joined = datetime.date(2019, 2, 7)
+## Format the date to return only month and year date
 
 ###
 # The functions below should be applicable to all Flask apps.

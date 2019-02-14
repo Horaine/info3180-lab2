@@ -1,3 +1,54 @@
 body {
     padding-top: 5rem;
 }
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Propic{
+    display: flex;
+}
+
+.area {
+    
+    width: 475px;
+    display: flex;
+    background-color: white;
+    flex-flow: row wrap;
+	vertical-align: middle;
+	flex-direction: column;
+	border-top-style: dashed;
+	border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+	border: 1px solid cyan;
+	
+}
+
+.image {
+    border-radius: 50%;
+    border: double 1px grey;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15% 0 15%;
+    align-items: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+	background-color: dodgerblue;
+}
+
+.bio {
+    padding: 10px;
+}
+
+.follow {
+    padding: 10px 20px;
+	background-color: dodgerblue;
+	border: 1px solid #ddd;
+	border-radius: 10%;
+	color: white;
+}
